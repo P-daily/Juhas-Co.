@@ -1,0 +1,5 @@
+﻿train: C:/Users/Krystian/Documents/Studia/psio/projekt/data/license_plates/train/images  # Path to the training images
+val: C:/Users/Krystian/Documents/Studia/psio/projekt/data/license_plates/val/images  # Path to the validation images
+
+nc: 1  # Number of classes (e.g., 1 if you are detecting license plates as a single class)
+names: ['license_plate']  # List of class names

@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['car', 'license']
+
+roboflow:
+  workspace: dossymova-zhibek
+  project: license-plate-detection-w0quj
+  version: 3
+  license: Public Domain
+  url: https://universe.roboflow.com/dossymova-zhibek/license-plate-detection-w0quj/dataset/3
